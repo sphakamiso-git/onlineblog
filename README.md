@@ -23,7 +23,8 @@
   #
 
   ## How to use
-  **Run** pip install -r requirements.txt
+  **Run** pip install -r  requirements.txt
+  
   [pip requirements](/requirements.txt)
 
   ## References
