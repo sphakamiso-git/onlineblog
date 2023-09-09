@@ -35,9 +35,11 @@ def profile(request):
      else:
            u_form = UserUpdateForm(instance=request.user)
            p_form = ProfileUpdateForm(instance=request.user.profile)
+           username = request.user.username()
      context = {
           'u_form':u_form,
-          'p_form':p_form
+          'p_form':p_form,
+          'username':username
      }
      return render(request, 'users/profile.html', context)
 
